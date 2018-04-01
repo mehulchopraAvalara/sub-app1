@@ -1,6 +1,6 @@
 {
   "name": "sub-app1",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon"
@@ -18,7 +18,7 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "aw-list": "github:mehulchopraAvalara/aw-list#semver:^1.0.0",
+    "aw-list": "github:mehulchopraAvalara/aw-list#semver:^2.0.0",
     "ember-cli-babel": "^6.3.0",
     "ember-cli-htmlbars": "^2.0.1"
   },

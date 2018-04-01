@@ -2,6 +2,8 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
     model() {
-        return ['Go to gym', 'Go to school', 'Code ember'];
+        return [{ display: 'Go to gym' }, 
+            { display: 'Go to school' }, 
+            { display: 'Code ember'} ];
     }
 })
